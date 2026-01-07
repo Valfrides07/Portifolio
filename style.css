@@ -1,0 +1,232 @@
+/* --- Reset Básico --- */
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    flex-grow: 1;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: radial-gradient(circle at center, #1b2735 0%, #090a0f 100%);
+    color: white;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+/* Nav logo */
+.nav_logo {
+    height: 60px;
+    padding-top: 0.1%;
+    background-color: #025373;
+}
+
+
+#logotipo {
+
+    height: 110px;
+    width: 100px;
+    max-width: 120px;
+    padding-bottom: 2.5%;
+    cursor: pointer;
+    transition: transform 0.8s ease;
+}
+
+#logotipo:hover {
+    transform: scale(1.5);
+}
+
+/* --- Container Principal --- */
+.Container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 50px auto;
+    /* Centraliza na tela */
+    display: flex;
+    align-items: center;
+    /* Afasta texto da imagem */
+    justify-content: space-between;
+    /* Espaço entre texto e imagem */
+    gap: 50px;
+
+}
+
+/* --- Primeira DIV --- */
+.conteudo-texto {
+    flex: 1;
+    max-width: 600px;
+}
+
+#Boas_vindash1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 50px;
+    margin-bottom: 5%;
+    text-decoration: underline overline #025373;
+}
+
+#sobremim_p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #e0e0e0;
+    margin-bottom: -20%;
+}
+
+/* --- Imagem --- */
+.img_perfil {
+    width: 40%;
+    max-width: 450px;
+    height: auto;
+    /* propriedade CSS que redimensiona imagens ou vídeos para que o conteúdo inteiro caiba dentro de seu contêiner, preservando sua proporção origina */
+    object-fit: contain;
+}
+
+/* --- RESPONSIVIDADE --- */
+@media (max-width: 768px) {
+    .Container {
+        /* é uma propriedade do Flexbox que inverte a ordem dos itens dentro de um contêiner flexível, empilhando-os verticalmente de baixo para cima, em vez da ordem padrão de cima para baixo, alterando o eixo principal para vertical e revertendo-o */
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .conteudo_texto {
+        max-width: 100%;
+    }
+
+    .img_perfil {
+        width: 70%;
+        /* Imagem um pouco maior no celular */
+        margin-bottom: 30px;
+    }
+}
+
+/* Area de Projetos */
+.Div_Projetos {
+    width: 90%;
+    max-width: 1200px;
+    padding-top: 7%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+#h1_Projetos {
+    font-family: 'Lato', sans-serif;
+    font-size: 55px;
+    padding-top: 5%;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: underline overline #025373;
+}
+
+.conteudo_Projetos {
+    text-align: center;
+    padding: 2%;
+}
+
+/* Card grid de projetos */
+
+.projects {
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+
+.card {
+    flex: 0 1 320px;
+    display: block;
+    border-radius: 16px;
+    background: rgba(58, 57, 57, 0.014);
+
+    /* é uma propriedade que corta e oculta completamente qualquer conteúdo (texto, imagens, etc.) que ultrapassar os limites (largura ou altura) definidos para um elemento, impedindo que barras de rolagem apareçam e garantindo um layout limpo e organizado, mas tornando o conteúdo oculto inacessível. */
+    overflow: hidden;
+    transform: translateY(40px);
+    opacity: 0;
+    transition: all 0.6s ease;
+}
+
+.card.show {
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+.card_image img {
+    width: 100%;
+    height: 320px;
+
+    /* controla como elementos substituídos (como <img> ou <video>) se ajustam e são posicionados dentro de seus contêineres, preservando ou esticando suas proporções para preencher o espaço disponível */
+    object-fit: cover;
+    transition: transform 0.1s ease-in;
+    cursor: pointer;
+    mask-image: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.63) 60%,
+            transparent 100%);
+}
+
+.card_image:hover {
+    transform: scale(1.1);
+}
+
+.card_content {
+    padding: 10%;
+    font-size: 20px;
+    text-align: left;
+    max-width: 600px;
+}
+
+
+
+/* Footer nav */
+.footer_class {
+    margin-top: 5%;
+    background-color: #025373;
+}
+
+#nav_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 8%;
+    font-size: 15px;
+    background-color: #025373;
+}
+
+#portifolio_text {
+    margin: 0;
+}
+
+#portifolio_text a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*link do github */
+#My_Github {
+    margin: 0;
+}
+
+#My_Github a {
+    text-decoration: none;
+    /* Remove o sublinhado do link */
+    color: #ffffff;
+}
+
+#Github_Logo{
+    transition: transform 0.1s ease-in;
+    height: 30px;
+    width:80px
+}
+
+#Github_Logo:hover{
+    transform: scale(1.2);
+}
