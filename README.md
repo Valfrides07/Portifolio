@@ -1,5 +1,4 @@
-# Portifolio
-Portfólio Pessoal — Valfrides Fernandes
+# Portifolio - (Portfólio Teste)
 
 Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com foco em aprendizado prático, organização de código e evolução contínua como desenvolvedor.
 
