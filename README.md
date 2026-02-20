@@ -1,8 +1,10 @@
 # Portfólio - (Portfólio Teste)
 
-Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com foco em aprendizado prático, organização de código e evolução contínua como desenvolvedor.
+Observação: Este portfólio foi feito com intuito de teste, não é nunca foi feito com o objetivo de ser oficial!
 
-O projeto foi construído do zero utilizando tecnologias fundamentais do desenvolvimento web, com atenção especial à estrutura, responsividade e experiência do usuário.
+Este repositório contém o código-fonte do meu portfólio teste, desenvolvido com foco em aprendizado prático, organização de código e evolução contínua como desenvolvedor.
+
+O projeto foi construído do zero utilizando tecnologias fundamentais do desenvolvimento web, com atenção especial à estrutura, responsividade e experiência do usuário e estudo.
 
 Visão Geral
 
@@ -56,18 +58,6 @@ Plataforma com visualização pública e área administrativa para gerenciamento
 Landing Page Interativa
 Página focada em experiência do usuário, com narrativa visual e interatividade.
 
-Objetivo do Projeto
 
-Este portfólio não é apenas uma vitrine, mas parte do meu processo de formação como desenvolvedor.
-Ele evolui conforme meus estudos avançam, especialmente em React, Next.js e backend, que serão incorporados futuramente.
 
-Contato
 
-📧 Email: valfridesfreitas29@gmail.com
-
-🐙 GitHub: https://github.com/Valfrides07
-
-Observação Final
-
-Este projeto foi desenvolvido com foco em aprendizado real, não em atalhos.
-Cada linha de código aqui representa estudo, prática e evolução contínua.
