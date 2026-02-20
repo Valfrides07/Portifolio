@@ -1,4 +1,4 @@
-# Portifolio - (Portfólio Teste)
+# Portfólio - (Portfólio Teste)
 
 Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido com foco em aprendizado prático, organização de código e evolução contínua como desenvolvedor.
 
