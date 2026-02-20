@@ -1,12 +1,10 @@
 # Portfólio - (Portfólio Teste)
 
-Observação: Este portfólio foi feito com intuito de teste, não é nunca foi feito com o objetivo de ser oficial!
+- Observação: Este portfólio foi feito com intuito de teste, não é nunca foi feito com o objetivo de ser oficial!
 
 Este repositório contém o código-fonte do meu portfólio teste, desenvolvido com foco em aprendizado prático, organização de código e evolução contínua como desenvolvedor.
 
-O projeto foi construído do zero utilizando tecnologias fundamentais do desenvolvimento web, com atenção especial à estrutura, responsividade e experiência do usuário e estudo.
-
-Visão Geral
+- Visão Geral
 
 O portfólio apresenta:
 
@@ -20,7 +18,7 @@ Animações suaves acionadas conforme o usuário navega pela página
 
 Todo o layout foi pensado para ser simples, direto e funcional, priorizando clareza visual e leitura confortável.
 
-Tecnologias Utilizadas
+- Tecnologias Utilizadas:
 
 HTML5
 Estrutura semântica e organizada da aplicação.
@@ -35,7 +33,7 @@ Interatividade e animações baseadas em scroll utilizando a API IntersectionObs
 Google Fonts
 Tipografia personalizada para melhorar a identidade visual.
 
-Funcionalidades em Destaque
+- Funcionalidades em Destaque
 
 Layout responsivo para desktop e dispositivos móveis
 
@@ -45,7 +43,7 @@ Estrutura modular e fácil de manter
 
 Código comentado com foco em aprendizado e clareza
 
-Projetos Apresentados
+- Projetos Apresentados
 
 O portfólio inclui projetos desenvolvidos com foco em estudo e aprimoramento técnico, como:
 
