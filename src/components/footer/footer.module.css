@@ -1,0 +1,32 @@
+/* footer */
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column; 
+  min-height: 100vh;      
+  margin: 0;
+}
+
+.Footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background: var(--background-header);
+  padding: 0.8rem;
+  margin-top: auto;
+}
+
+.SpanDireitos {
+  text-decoration: none;
+  color: var(--color-font-opaca);
+  font-size: 0.9rem;
+  opacity: 0.8;
+  padding: 0.4rem;
+  align-items: center;
+}

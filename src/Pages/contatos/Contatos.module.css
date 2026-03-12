@@ -1,0 +1,122 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Div Titutlo e p Subtitulo */
+.divContato {
+  font-family: var(--font-principal);
+  color: var(--color-font-principal);
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  justify-content: center;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-top: 7.5rem;
+  padding-bottom: 0.4rem;
+}
+
+.Psubtitulo {
+  font-family: var(--font-secundaria);
+  color: var(--color-font-opaca);
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+/* Icons de E-mail e WhatsApp */
+svg {
+  height: 2.5rem;
+  width: 4rem;
+  margin: 1px;
+}
+
+/* Divs do WhatsApp e Email  */
+.DivEmail,
+.DivWhatsapp {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* encaminha para o WhatsApp */
+.Whatsapp {
+  padding-top: 4rem;
+  display: flex;
+  align-items: center;
+  color: var(--color-font-principal);
+  text-decoration: none;
+  text-align: left;
+  font-size: 1.5rem;
+
+  /* maneira de empurrar o footer pra baixo */
+  padding-bottom: 17.67rem;
+}
+
+/* encaminha para o Gmail */
+.Email {
+  display: flex;
+  align-items: center;
+  color: var(--color-font-principal);
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+/* Responsividade mobile */
+
+@media (max-width: 768px) {
+  .divContato {
+    padding-top: 5rem; 
+    font-size: 1.1rem;
+  }
+
+  .Psubtitulo {
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+  }
+
+  /* Faz os itens de contato ficarem um abaixo do outro se necessário */
+  .DivEmail,
+  .DivWhatsapp {
+    flex-direction: column;
+    padding: 0.5rem;
+    gap: 5px;
+  }
+
+  .Whatsapp, 
+  .Email {
+    font-size: 1.3rem; 
+    text-align: center;
+    justify-content: center;
+  }
+
+  .Whatsapp {
+    padding-top: 2rem;
+
+    /* Reduz o espaço vazio no final da página */
+    padding-bottom: 21.5rem;
+  }
+
+  svg {
+    height: 2rem;
+    width: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .Whatsapp, 
+  .Email {
+    font-size: 1rem; 
+  }
+}
+

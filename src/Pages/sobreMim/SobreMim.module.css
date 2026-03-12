@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.SectionSobreMim {
+  padding-bottom: 2rem;
+}
+
+/* nao alterar o nome para classe, senao o footer quebra em todas as paginas */
+h1 {
+  text-align: center;
+  padding: 2rem;
+  padding-top: 7.5rem;
+  padding-bottom: 0.4rem;
+}
+
+/* Paragrafo sobre mim */
+.P_SobreMim {
+  font-family: var(--font-secundaria);
+  color: var(--color-font-opaca);
+  font-size: 20px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0.7rem;
+  padding-top: 4rem;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+.H2Subtitulo {
+  text-align: center;
+  font-size: 2.1rem;
+  padding-bottom: 1rem;
+}
+
+.Profissao {
+  font-size: 1.3rem;
+}
+
+.BtnCurriculo {
+  font-family: var(--font-secundaria);
+  font-size: 15px;
+  padding: 0.3rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.76);
+}
+
+
+/* Responsividade no mobile */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem; 
+    padding-top: 11rem; 
+  }
+
+  .P_SobreMim {
+    font-size: 16px; 
+    padding-top: 2rem;
+    line-height: 1.6; 
+    letter-spacing: 1px;
+    text-align: justify;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .H2Subtitulo {
+    font-size: 1.6rem;
+    padding-top: 1rem;
+  }
+
+  .Profissao {
+    font-size: 1.1rem;
+    display: block; 
+    padding: 0 1rem;
+  }
+
+  .BtnCurriculo {
+    display: block;
+    margin: 2rem auto;
+    padding: 0.8rem 1.5rem;
+    font-size: 16px;
+  }
+}

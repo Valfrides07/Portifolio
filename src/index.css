@@ -1,0 +1,33 @@
+/* * é o reset do htmlN */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* background Principal */
+body{
+  min-height: 100vh;
+  background: #010440;
+  font-family: var(--font-principal);
+
+}
+
+
+/* estrutura do scroll */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+
+/* barra que  arrasta */
+::-webkit-scrollbar-thumb {
+  background: var(--background-header);
+  border-radius: 15px;
+}
+
+/* efeito quando passa o mouse */
+::-webkit-scrollbar-thumb:hover {
+  background: #452de4;
+;
+}

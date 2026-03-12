@@ -1,0 +1,198 @@
+body {
+  color: white;
+}
+
+.hero {
+  padding-top: 3rem;
+}
+
+/* Meu nome */
+.NameMy {
+  font-size: 3.2rem;
+  color: var(--color-font-principal);
+  font-family: var(--font-principal);
+  text-align: center;
+  padding: 2rem;
+  padding-top: 7.5rem;
+  padding-bottom: 0.4rem;
+}
+
+/* Div sobre a minha Stack */
+.PBreve_Resumo {
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+.PBreve_Resumo p {
+  font-family: var(--font-secundaria);
+  color: var(--color-font-opaca);
+  font-size: 1.5rem;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0.1rem;
+  line-height: 2;
+  letter-spacing: 2px;
+}
+
+
+/* span de boas vindas */
+.SpanH1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: var(--color-font-principal);
+  font-family: var(--font-principal);
+}
+
+.HeroText {
+  text-align: center;
+}
+
+
+
+.h2Tecnologias {
+  padding-bottom: 3.5rem;
+  font-size: 1.6rem;
+}
+
+/* Ul Cards */
+.Card {
+  padding: 2rem;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+.iconList {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+/* Icons */
+.IconPython,
+.IconReact,
+.IconNextJs,
+.IconJS,
+.IconTypeEscript {
+  color: var(--color-font-principal);
+  background: var(--background-header);
+  display: flex;
+  justify-content: baseline;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  transition: all 0.7s ease-in;
+  
+}
+
+.IconPython:hover,
+.IconReact:hover,
+.IconNextJs:hover,
+.IconJS:hover,
+.IconTypeEscript:hover {
+  transform: scale(1.1);
+}
+
+/* Cores de cada Icon */
+.IconPython svg {
+  color: #3776ab;
+}
+.IconReact svg {
+  color: #61dafb;
+}
+.IconNextJs svg {
+  color: #000000;
+}
+.IconJS svg {
+  color: #f7df1e;
+}
+.IconTypeEscript svg {
+  color: #3178c6;
+}
+
+.iconList li {
+  width: 450px;
+  height: 235px;
+  border-radius: 6px;
+  background: var(--background-header);
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: all 0.4s ease;
+  position: relative;
+
+  display: flex;
+  flex-direction: row;
+
+  /* deixa a esquerda */
+  justify-content: center;
+
+  /* e no topo */
+  align-items: flex-start;
+  padding: 1rem;
+
+  /* espacamento entre o icon e o texto */
+  gap: 0.1rem;
+}
+
+/* adiciona sombra de acordo com a animação */
+.iconList li:hover {
+  transform: translateY(-12px) scale(1.05);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.35);
+}
+
+/* tamanho dos icons, arrumar a responsividade */
+.iconList svg {
+  width: 40px;
+  height: 40px;
+  padding-right: 0.7rem;
+  flex-shrink: 0;
+  /* transition: transform 0.4s ease; */
+}
+
+/* .iconList li:hover svg {
+  transform: scale(1.15);
+} */
+
+/*  Nome das tecnologias dentro dos cards  */
+.iconList span {
+  padding: 0.4rem;
+  font-size: 1.35rem;
+  font-weight: 300;
+  color: var(--color-font-principal);
+  line-height: 1.3;
+}
+
+/* Descrição de cada task */
+
+.InformativoPY,
+.InformativoREACT,
+.InformativoNEXTJS,
+.InformativoJS,
+.InformativoTS {
+  text-align: left;
+  padding-left: 0.5rem;
+  justify-content: center;
+  font-size: 1.19rem;
+  color: var(--color-font-opaca);
+  font-family: var(--font-secundaria);
+  line-height: 1.6;
+  letter-spacing: 1.3px;
+  transition: all 0.4s ease;
+}
+
+.InformativoPY:hover,
+.InformativoREACT:hover,
+.InformativoNEXTJS:hover,
+.InformativoJS:hover,
+.InformativoTS:hover{
+  transform: scale(1.04);
+
+}
+
+
+/* responsavidae para mobile */

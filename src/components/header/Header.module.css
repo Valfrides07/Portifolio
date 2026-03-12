@@ -1,0 +1,158 @@
+.header{
+    position: fixed; 
+    top: 0;          
+    left: 0;        
+    width: 100%;
+    display: flex;
+    height: 3.7rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-header);
+    z-index: 1000;
+}
+
+
+.header span{
+    color: black ;
+    padding: 10px;
+    font-family: var(--font-principal);
+    font-size: 1.5rem;
+    margin: 1.5rem;
+}
+
+.header nav a{
+    color: rgb(241, 241, 241);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 1.1rem;
+}
+
+/* botao home */
+.HomeBtn{
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    margin: 0.3rem;
+    padding-right: 1rem;
+    transition: all 0.3s ease-in-out;
+    border-radius: 40px;
+}
+
+.HomeBtn:hover{
+    transform: scale(1.08);
+    border-radius: 40px;
+    background: var(--background-principal);
+
+}
+
+/* botao Projetos */
+.ProjetosBtn{
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    margin: 0.3rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in-out;
+    border-radius: 40px;
+}
+
+.ProjetosBtn:hover{
+    transform: scale(1.08);
+    border-radius: 40px;
+    background: var(--background-principal);
+
+}
+
+/* botao Contatos */
+.ContatosBtn{
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    margin: 0.3rem;
+    padding-right: 1rem;
+    transition: all 0.5s ease-in-out;
+    border-radius: 40px;
+}
+
+.ContatosBtn:hover{
+    transform: scale(1.08);
+    border-radius: 40px;
+    background: var(--background-principal);
+
+}
+
+/* botao Sobre Mim */
+.BtnSobreMim{
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    padding-right: 1rem;
+    margin: 0.3rem;
+    transition: all 0.5s ease-in-out;
+    margin-right: 2rem;
+    border-radius: 40px;
+}
+
+.BtnSobreMim:hover{
+    transform: scale(1.08);
+    border-radius: 40px;
+    background: var(--background-principal);
+}
+
+/* nao deu certo chamar pela class e id */
+.header img{
+    height: 130px;
+    width: auto;
+    transition: all 1s ease-in-out;
+    cursor: pointer;
+
+}
+
+.header img:hover{
+    transform: scale(1.2);
+}
+
+
+
+/* Responsividade pra mobile */
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; 
+        height: auto; 
+        padding: 5px 0;
+        justify-content: center;
+    }
+
+    .header span {
+        margin: 0.3rem;
+        font-size: 1.5rem;
+        padding: 0;
+    }
+
+    /*  <nav> deixe os botões lado a lado e quebre a linha se necessário */
+    .header nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 5px;
+        margin-top: 5px;
+    }
+
+    /* Reduz um pouco a fonte dos links */
+    .header nav a {
+        font-size: 0.95rem; 
+    }
+
+    /* Compacta o preenchimento e a margem de todos os botões no mobile */
+    .HomeBtn, 
+    .ProjetosBtn, 
+    .ContatosBtn, 
+    .BtnSobreMim {
+        padding: 0.4rem 0.8rem;
+        margin: 0.2rem;
+    }
+
+    .BtnSobreMim {
+        margin-right: 0.2rem;
+    }
+
+    .header img {
+        height: 75px; /* Reduz o tamanho da imagem para não ocupar meia tela */
+    }
+}

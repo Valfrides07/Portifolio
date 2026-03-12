@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.divDireitos {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 6rem 2rem;
+}
+
+.H1Direitos {
+  font-family: var(--font-principal);
+  color: var(--color-font-principal);
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  text-align: center;
+}
+
+.Subtitulo {
+  font-size: 1.6rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  color: var(--color-font-principal);
+  font-weight: 600;
+}
+
+.Paragrafo {
+  font-family: var(--font-secundaria);
+  color: var(--color-font-opaca);
+  font-size: 1.25rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+
+ul {
+  margin: 1.5rem 0 2rem 1.5rem;
+  padding: 0;
+  text-align: left;
+}
+
+li {
+  margin-bottom: 0.8rem;
+  line-height: 1.7;
+  font-size: 1.05rem;
+  color: var(--color-font-opaca);
+}
+
+.ParagrafoFooter {
+  margin-top: 3rem;
+  font-size: 1rem;
+  opacity: 0.8;
+  color: var(--color-font-opaca);
+}
+
+.Alert{
+  text-decoration: underline;
+}
+
+/* responsavidae para mobile */
