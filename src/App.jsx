@@ -1,13 +1,13 @@
 import "./App.css";
 
-import Header from "./components/Header";
-import Hero from "./components/Hero";
+import Header from "./components/header";
+import Hero from "./components/hero";
 import Footer from "./components/footer";
 
 import Projetos from "./Pages/Projetos";
-import Contatos from "./Pages/Contatos";
-import SobreMim from "./Pages/SobreMim";
-import Direitos from "./Pages/DireitosAutorais";
+import Contatos from "./Pages/contatos";
+import SobreMim from "./Pages/sobreMim";
+import Direitos from "./Pages/direitosAutorais";
 
 // Import de rotas para os <links> serem usados
 import { BrowserRouter, Route, Routes } from "react-router-dom";
