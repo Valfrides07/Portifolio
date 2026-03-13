@@ -2,7 +2,8 @@ import Header from "./components/Header/index";
 import Hero from "./components/Hero/index";
 import Footer from "./components/Footer/index";
 
-import Projetos from "./Pages/Projetos/index";
+
+import Projetos from "./Pages/Projetos";
 import Contatos from "./Pages/Contatos/index";
 import SobreMim from "./Pages/SobreMim/index";
 import Direitos from "./Pages/DireitosAutorais/index";

@@ -22,11 +22,11 @@ function Header() {
           Projetos
         </Link>
 
-        <Link className={styles.ContatosBtn} to="/Contato">
+        <Link className={styles.ContatosBtn} to="/Contatos">
           Contato
         </Link>
 
-        <Link className={styles.BtnSobreMim} to="/Sobre">
+        <Link className={styles.BtnSobreMim} to="/SobreMim">
           Sobre Mim
         </Link>
       </nav>

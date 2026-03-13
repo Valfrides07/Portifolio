@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import styles from "./SobreMim.module.css";
 
-import MeuCurriculo from "/CV/Curriculo estágio atualizado .pdf";
-
 // alterar o titulo da pagina
 function SobreMim() {
   useEffect(() => {
@@ -11,7 +9,6 @@ function SobreMim() {
 
   return (
     <section className={styles.SectionSobreMim}>
-      
       <div className={styles.DivSobremim}>
         <h1>Conheça um pouco sobre mim</h1>
       </div>
@@ -32,17 +29,17 @@ function SobreMim() {
           crescimento técnico.
         </p>
         <br />
-        
+
         {/* Breve experiencias profissionais */}
         <h2 className={styles.H2Subtitulo}>Tenho como experiências:</h2>
-        
+
         <p className={styles.Profissao}>
           <strong>
             Estagiário em Tecnologia da Informação - Prefeitura de
             Cubatão(2025):
           </strong>
         </p>
-        
+
         <ul>
           <li>micros, softwares e comunicação de dados </li>
 
@@ -53,13 +50,12 @@ function SobreMim() {
           <li>Acompanhamento de testes e programas </li>
 
           <li>Manipulação de dados </li>
-
         </ul>
-        
+
         <p className={styles.Profissao}>
           <strong>Auxiliar de Logística - Loja do Mecânico(2022):</strong>
         </p>
-        
+
         <ul>
           <li>Conferência e separação de pedidos</li>
 
@@ -73,13 +69,13 @@ function SobreMim() {
 
           <li>Melhoria contínua em processos logísticos</li>
         </ul>
-        
+
         <div>
           <p className={styles.Profissao}>
             <strong>Exército Brasileiro(2021-2022):</strong>
           </p>
         </div>
-        
+
         <ul>
           <li>Organização, Disciplina e responsabilidade</li>
 
@@ -97,19 +93,17 @@ function SobreMim() {
 
           <li>Resiliência e adaptação a ambientes desafiadores</li>
         </ul>
-        
+
         {/* Botao com download de curriculo em pdf */}
         <div>
           <a
-            href={MeuCurriculo}
-            download="Currículo-Valfrides-Fernandes-Front-End.pdf">
-
-            <button className={styles.BtnCurriculo} type="button">
-              Baixar Currículo
-            </button>
+            href="/CV/Curriculo-estágio-atualizado.pdf"
+            download="Curriculo-Valfrides-Fernandes-Front-End.pdf"
+            className={styles.BtnCurriculo}
+          >
+            Baixar Currículo
           </a>
         </div>
-      
       </div>
     </section>
   );

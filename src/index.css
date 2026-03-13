@@ -31,3 +31,21 @@ body{
   background: #452de4;
 ;
 }
+
+
+:root{
+  /* fontes */
+  --font-principal: sans-serif, Open Sans;
+  --font-secundaria: Roboto Condensed, Roboto, sans serif;
+
+  /* cores fontes */
+  --color-font-principal: #f7f7f7;
+  --color-font-secundaria: black;
+  --color-font-opaca: rgba(240, 248, 255, 0.5);
+
+  /* cores background */
+  --background-principal:#010440;
+  --background-secundario: #1E1940;
+  --background-header:#3A29A6;
+
+}

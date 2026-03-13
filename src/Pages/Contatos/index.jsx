@@ -1,4 +1,5 @@
 import styles from "./Contatos.module.css";
+
 import { useEffect } from "react";
 
 import { Mail } from "lucide-react";
