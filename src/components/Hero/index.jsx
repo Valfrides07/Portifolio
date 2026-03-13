@@ -2,7 +2,7 @@
 import styles from "./Hero.module.css";
 import { useEffect } from "react"; 
 
-import { AiOutlinePython } from "react-icons/ai";
+import { SiPython } from "react-icons/si";
 import { FaReact } from "react-icons/fa";
 import { RiNextjsLine } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io";
@@ -53,7 +53,7 @@ export default function Hero() {
 
               <li className={styles.IconPython} title="Python">
                 <span className={styles.SpanPy}>Python</span>
-                <AiOutlinePython />
+                <SiPython />
 
                 <p className={styles.InformativoPY}>
                   Versátil, legível e poderoso. Muito usado em automação,
